@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+body {
+  padding: 20px 16px 48px;
+}
+
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.back-link {
+  color: #0a58ca;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.file-name {
+  font-size: 14px;
+  color: #555555;
+  word-break: break-all;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: #b42318;
+  white-space: pre-wrap;
+}

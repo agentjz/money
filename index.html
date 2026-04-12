@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>money</title>
+    <link rel="stylesheet" href="./site/index.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="toolbar">
+        <input id="search-input" type="search" placeholder="搜索文件名" autocomplete="off" />
+      </div>
+      <div class="list-wrap">
+        <table class="file-table">
+          <thead>
+            <tr>
+              <th>文件名</th>
+              <th>创建日期</th>
+            </tr>
+          </thead>
+          <tbody id="file-list"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="./site/index-data.js"></script>
+    <script src="./site/index.js"></script>
+  </body>
+</html>
